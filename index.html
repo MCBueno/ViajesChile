@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+            <div class="container px3">
+                <img class="navbar_img" src="assets/img/viajes.svg" alt="viajes.svg">
+                <h1>Viajes Chile</h1>
+                <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light nav" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="Section1">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3.jpg">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="section2">
+        <h2>¿QUIÉNES SOMOS?</h2>
+        <br><br>
+        <hr>
+        <div class="container pt-5 d-none d-sm-none d-md-block bg-black">
+            <div class="row row-cols-1 row-cols-md-4">
+                <div class="col">
+                    <div class="section2_bg_icon">
+                        <i class="fa-solid fa-plane section2_icon"></i>
+                    </div>
+                    <p class="section2_parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aliquam
+                        excepturi reprehenderit similique dolorem facilis. Facere ut est error eveniet provident
+                        voluptate perspiciatis dicta. Maiores beatae perferendis dicta optio distinctio.</p>
+                </div>
+                <div class="col">
+                    <p class="section2_parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, aliquid
+                        voluptatum! Minima ab
+                        quis quo optio praesentium dicta eum dolorum, assumenda sint in blanditiis sapiente debitis,
+                        unde magni iusto. Voluptas?</p>
+                    <div class="section2_bg_icon">
+                        <i class="fa-solid fa-mountain section2_icon"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="section2_bg_icon">
+                        <i class="fa-solid fa-route section2_icon"></i>
+                    </div>
+                    <p class="section2_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                        dignissimos odio blanditiis
+                        perferendis autem corrupti voluptate architecto ea, quisquam quibusdam repudiandae eligendi
+                        totam eum placeat! Eligendi consequuntur voluptas hic distinctio!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <H2>DESTACADOS</H2>
+        <br>
+        <hr>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-1 abs-center cards">    <!-- apliar columnas para parrafos y H -->
+                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="card1.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Primer Título</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">     <!-- asignar propiedades de col a cada elemento para que funcione correctamente -->
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="card2.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Segundo Título</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="card3.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Tercer Título</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="card4.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Cuarto Título</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="container">
+            <h2>CONTACTO</h2>
+            <br>
+            <hr>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <div>
+                <button type="button" class="btn btn-info text-light">Enviar</button>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row footer_content">
+                <div class="col footer_logo text-light">
+                    <h1>VIAJES CHILE</h1>
+                </div>
+                <div class="col footer_social">
+                    <i class="fa-brands fa-square-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b63e9fc00a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
