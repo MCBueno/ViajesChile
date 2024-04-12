@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Matias Bueno desafío latam">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="shortcut icon" type="image.png" href="assets/img/viajes.svg">
+    <title>Viajes Chile</title>
 </head>
 
 <body>
@@ -24,23 +26,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item active">
-                            <a class="nav-link text-light nav" href="#">Inicio</a>
+                            <a class="nav-link text-light nav" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light nav" href="#">Quienes somos</a>
+                            <a class="nav-link text-light nav" href="#quienes-somos">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light nav" href="#">Destacados</a>
+                            <a class="nav-link text-light nav" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light nav" href="#">Contacto</a>
+                            <a class="nav-link text-light nav" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="Section1">
+    <section class="Section1" id="inicio">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -63,34 +65,43 @@
             </button>
         </div>
     </section>
-    <section class="section2">
-        <h2>¿QUIÉNES SOMOS?</h2>
+    <section class="section2 pt-5 d-none d-sm-none d-md-block bg-black">
+        <h2 id="quienes-somos">¿QUIÉNES SOMOS?</h2>
         <br><br>
         <hr>
-        <div class="container pt-5 d-none d-sm-none d-md-block bg-black">
-            <div class="row row-cols-1 row-cols-md-4">
-                <div class="col">
+        <div class="container ">
+            <div class="row pt-3">
+                <div class="col-md-4 col-lg-4 col-xl-4 text-left">
                     <div class="section2_bg_icon">
                         <i class="fa-solid fa-plane section2_icon"></i>
                     </div>
                     <p class="section2_parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aliquam
                         excepturi reprehenderit similique dolorem facilis. Facere ut est error eveniet provident
-                        voluptate perspiciatis dicta. Maiores beatae perferendis dicta optio distinctio.</p>
+                        voluptate perspiciatis dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                        laborum, reprehenderit vero sit nam aliquid voluptas quam consequuntur! Accusantium corporis
+                        aperiam porro deserunt debitis beatae aliquid fuga reiciendis culpa rerum. Maiores beatae
+                        perferendis dicta optio distinctio.</p>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-lg-4 col-xl-4 text-left">
                     <p class="section2_parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, aliquid
                         voluptatum! Minima ab
-                        quis quo optio praesentium dicta eum dolorum, assumenda sint in blanditiis sapiente debitis,
+                        quis quo optio Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias recusandae
+                        velit mollitia quaerat, error sapiente itaque! Hic atque, vero suscipit, harum maiores
+                        perferendis officiis repellendus consectetur, ipsam eos nemo animi.praesentium dicta eum
+                        dolorum, assumenda sint in blanditiis sapiente debitis,
                         unde magni iusto. Voluptas?</p>
                     <div class="section2_bg_icon">
                         <i class="fa-solid fa-mountain section2_icon"></i>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-lg-4 col-xl-4 text-left">
                     <div class="section2_bg_icon">
                         <i class="fa-solid fa-route section2_icon"></i>
                     </div>
-                    <p class="section2_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                    <p class="section2_parrafo">Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Asperiores cupiditate voluptas enim facere, suscipit maiores ipsa sapiente rerum fugiat nemo
+                        illo natus inventore eos expedita alias repudiandae ea esse deleniti. ipsum dolor sit amet
+                        consectetur adipisicing elit. Illum
                         dignissimos odio blanditiis
                         perferendis autem corrupti voluptate architecto ea, quisquam quibusdam repudiandae eligendi
                         totam eum placeat! Eligendi consequuntur voluptas hic distinctio!</p>
@@ -98,44 +109,50 @@
             </div>
         </div>
     </section>
-    <section class="section3">
-        <H2>DESTACADOS</H2>
-        <br>
-        <hr>
+    <section class="section3 pt-5 d-none d-sm-none d-md-block bg-black">
+        <!-- REVISAR CONTENEDORES Y ORDEN DE DIVS -->
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-1 cards">    <!-- apliar columnas para parrafos y H -->
-                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="card1.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Primer Título</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+            <h2 id="destacados">DESTACADOS</h2>
+            <br>
+            <hr>
+            <div class="px-5">
+                <div class="row cards"> <!-- apliar columnas para parrafos y H -->
+                    <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="card1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Primer Título</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
                     </div>
-                </div>
-
-                
-                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">     <!-- asignar propiedades de col a cada elemento para que funcione correctamente -->
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="card2.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Segundo Título</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                    <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
+                        <!-- asignar propiedades de col a cada elemento para que funcione correctamente -->
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="card2.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Segundo Título</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="card3.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Tercer Título</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                    <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="card3.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Tercer Título</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="card4.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Cuarto Título</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                    <div class="card bg-transparent pt-5 col-sm-4 col-md-6 col-lg-12" style="width: 18rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="card4.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Cuarto Título</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,7 +160,7 @@
     </section>
     <section class="section4">
         <div class="container">
-            <h2>CONTACTO</h2>
+            <h2 id="contacto">CONTACTO</h2>
             <br>
             <hr>
             <div class="mb-3">
@@ -159,12 +176,14 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
             </div>
             <div>
-                <button type="button" class="btn btn-info text-light">Enviar</button>
+                <button type="button" class="btn btn-light text-light bg-info section4_btn" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-title="Enviar tus datos">
+                    Enviar </button>
+                <!-- id="section4_btn" (PARA LLAMAR EN JS) -->
+                <!-- title="Tus datos fueron enviados correctamente" ES PARA ASIGNAR EL TEXTO QUE SE CREARA CON JS -->
             </div>
         </div>
-
     </section>
-
     <footer>
         <div class="container">
             <div class="row footer_content">
@@ -180,15 +199,16 @@
             </div>
         </div>
     </footer>
-
-    <script src="assets/js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!-- SCRIPT DE JQUERY -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> <!-- SCRIPT DE BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b63e9fc00a.js" crossorigin="anonymous"></script>
+    <!--  SCRIPT DE FONT AWESOME -->
+    <script src="assets/js/app.js"></script> <!-- SCRIPT DE JS -->
 </body>
 
 </html>
